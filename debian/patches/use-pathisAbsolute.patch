@@ -1,0 +1,15 @@
+Description: Use pathisAbsolute
+ Use path.isabsolute instead of is-absolute
+Forwarded: not-needed
+
+--- a/index.js
++++ b/index.js
+@@ -2,7 +2,7 @@
+ 
+ var path = require('path');
+ var isNegated = require('is-negated-glob');
+-var isAbsolute = require('is-absolute');
++var isAbsolute = path.isAbsolute;
+ 
+ module.exports = function(glob, options) {
+   // default options

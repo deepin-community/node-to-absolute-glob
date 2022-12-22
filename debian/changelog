@@ -1,0 +1,40 @@
+node-to-absolute-glob (2.0.2-2) unstable; urgency=medium
+
+  * Team upload
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+
+ -- Yadd <yadd@debian.org>  Sun, 26 Sep 2021 06:55:55 +0200
+
+node-to-absolute-glob (2.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 2.0.2
+  * Remove dependency to node-extend-shallow
+  * refresh patch
+
+ -- Xavier Guimard <yadd@debian.org>  Wed, 07 Oct 2020 18:25:45 +0200
+
+node-to-absolute-glob (2.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #847469)
+
+ -- Sruthi Chandran <srud@disroot.org>  Thu, 08 Dec 2016 19:34:04 +0530

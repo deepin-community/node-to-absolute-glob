@@ -1,3 +1,10 @@
+node-to-absolute-glob (2.0.2-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-to-absolute-glob: Add :any qualifier for nodejs dependency.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 14:07:52 +0000
+
 node-to-absolute-glob (2.0.2-2) unstable; urgency=medium
 
   * Team upload
